@@ -231,6 +231,10 @@ module.exports = api.geo = {
         style.layer += '\tmarker-clip: ' + markerClip + ';\n';
         style.layer += '\tmarker-comp-op: ' + compOp + ';\n\n';
 
+        if (compOp == 'src') {
+            style.layer += '\tmarker-line-width: 0;\n\n';
+        }
+
         // OPACITY
         var pointOpacityCarto = api.geo.buildCarto_pointOpacity(options);
         style.headers += pointOpacityCarto.headers;
