@@ -48,6 +48,7 @@ module.exports = api.user = {
 
     listUsers : function (req, res) {
 
+        console.log('listUsers');
         if (!req.user) {
             res.status(400);
             return res.send(noAccessMessage);
@@ -441,8 +442,11 @@ module.exports = api.user = {
 
     // from shareable link flow
     getInviteLink : function (req, res, next) {
-        var options = req.query || {};
+        // var options = req.query || {};
+        var options = req.body || {};
         options.user = req.user;
+
+        console.log('getInviteLink options', options);
 
         if (!options.user) {
             next({
@@ -505,6 +509,8 @@ module.exports = api.user = {
             timestamp : new Date().getTime(),
             type : type
         });
+
+        console.log('_createInviteLink, invite_options', invite_options);
 
         // save token to redis
         var redis_key = 'invite:token:' + token;

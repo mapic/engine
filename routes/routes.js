@@ -821,6 +821,7 @@ module.exports = function(app) {
 
     // list users
     app.get('/v2/users/list', checkAccess, api.user.listUsers, errorHandler);
+    // app.get('/v2/users/list', api.user.listUsers, errorHandler);
 
 
 
@@ -2231,7 +2232,8 @@ module.exports = function(app) {
     // =====================================
     // GENERATE ACCESS LINK ================
     // =====================================
-    app.get('/v2/users/invite/link', checkAccess, analyticsHandler, api.user.getInviteLink, errorHandler);
+    // app.get('/v2/users/invite/link', checkAccess, analyticsHandler, api.user.getInviteLink, errorHandler);
+    app.post('/v2/users/invite/link', checkAccess, analyticsHandler, api.user.getInviteLink, errorHandler);
 
     // =====================================
     // CHECK RESET PASSWORD TOKEN ==========
