@@ -79,7 +79,7 @@
     "geojson-validation": "^0.1.6",
     "glob": "^7.1.2",
     "gm": "^1.23.0",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-chokidar": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^2.2.1",
