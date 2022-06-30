@@ -128,7 +128,7 @@
     "queue-async": "^1.2.1",
     "redis": "^2.8.0",
     "redis-info": "^3.0.6",
-    "request": "^2.83.0",
+    "request": "^2.87.0",
     "resumable": "0.0.1-1",
     "sanitize-filename": "^1.6.1",
     "serve-favicon": "^2.4.5",
