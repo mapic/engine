@@ -103,7 +103,7 @@
     "mapnik-omnivore": "^8.1.0",
     "mapnik-reference": "^8.8.1",
     "mime": "^2.0.3",
-    "mocha": "^4.0.1",
+    "mocha": "^10.1.0",
     "mongoose": "^4.13.6",
     "mongoose-times": "^0.1.0",
     "morgan": "^1.9.0",
