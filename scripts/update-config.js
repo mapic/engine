@@ -14,7 +14,10 @@ var MAPIC_SLACK_WEBHOOK = process.env.MAPIC_SLACK_WEBHOOK;
 var MAPIC_SLACK_TOKEN = process.env.MAPIC_SLACK_TOKEN;
 var MAPIC_NODEMAILER_USER = process.env.MAPIC_NODEMAILER_USER;
 var MAPIC_NODEMAILER_AUTH = process.env.MAPIC_NODEMAILER_AUTH;
+var MAPIC_NODEMAILER_HOST = process.env.MAPIC_NODEMAILER_HOST;
+var MAPIC_NODEMAILER_PORT = process.env.MAPIC_NODEMAILER_PORT;
 var MAPIC_LOGIN_LOGO = process.env.MAPIC_LOGIN_LOGO;
+
 
 console.log('env:');
 console.log(process.env);
@@ -74,8 +77,11 @@ engineConfig.serverConfig.slack.token = MAPIC_SLACK_TOKEN;
 engineConfig.serverConfig.slack.baseurl = engineConfig.serverConfig.portalServer.uri;
 
 // nodemailer
+engineConfig.serverConfig.nodemailer.host = MAPIC_NODEMAILER_HOST;
+engineConfig.serverConfig.nodemailer.port = MAPIC_NODEMAILER_PORT;
 engineConfig.serverConfig.nodemailer.auth.user = MAPIC_NODEMAILER_USER;
 engineConfig.serverConfig.nodemailer.auth.pass = MAPIC_NODEMAILER_AUTH;
+
 engineConfig.serverConfig.logo_base64 = MAPIC_LOGIN_LOGO;
 
 // write config

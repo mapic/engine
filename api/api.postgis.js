@@ -552,6 +552,10 @@ module.exports = api.postgis = {
                     console.log('caught error', e);
                 }
                 done(null, srid);
+            } else {
+                var msg = 'Failed to fetch SRID from prj2epsg.org';
+                console.log(msg);
+                done(error || msg);
             }
         });
 

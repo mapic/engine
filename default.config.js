@@ -38,15 +38,13 @@ module.exports = {
       "auth": "AUTH"
     },
     "nodemailer": {
-      "service": "gmail",
+      "host" : "",
       "auth": {
         "user": "GMAIL_ACCOUNT",
         "pass": "AUTH"
       },
-      "bcc": [
-        "hello@mapic.io"
-      ],
-      "from": "Mapic.io <hello@mapic.io>"
+      "bcc": [],
+      "from": "NGI | Insarkart <mapic@ngi.no>"
     },
     "path": {
       "file": "/data/files/",
