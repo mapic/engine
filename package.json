@@ -104,7 +104,7 @@
     "mapnik-reference": "^8.8.1",
     "mime": "^2.0.3",
     "mocha": "^4.0.1",
-    "mongoose": "^4.13.6",
+    "mongoose": "^5.13.20",
     "mongoose-times": "^0.1.0",
     "morgan": "^1.9.0",
     "node-dir": "^0.1.17",
