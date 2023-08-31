@@ -6,7 +6,9 @@
   "main": "start-server.sh",
   "scripts": {
     "test": " mocha test/ --recursive --exit",
-    "apidocs": "./tools/gen_apidocs.sh"
+    "apidocs": "./tools/gen_apidocs.sh",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "apidoc": {
     "title": "Mapic API Documentation",
@@ -134,7 +136,6 @@
     "serve-favicon": "^2.4.5",
     "sleep": "^5.1.1",
     "slug": "^0.9.1",
-    "snyk": "^1.48.1",
     "socket.io": "^2.0.4",
     "srs": "^1.2.0",
     "superagent": "^3.8.0",
@@ -146,7 +147,8 @@
     "winston": "^2.4.0",
     "wrench": "^1.5.9",
     "xml2js": "^0.4.19",
-    "yesno": "^0.0.1"
+    "yesno": "^0.0.1",
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
