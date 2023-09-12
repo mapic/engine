@@ -36,7 +36,7 @@
     "@mapbox/carto": "^0.16.3",
     "@mapbox/geojson-area": "^0.2.2",
     "@mapbox/sphericalmercator": "^1.0.5",
-    "@mapbox/togeojson": "^0.16.0",
+    "@mapbox/togeojson": "^0.16.1",
     "acl": "^0.4.11",
     "apidoc": "^0.17.6",
     "archiver": "^2.1.0",
