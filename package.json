@@ -39,7 +39,7 @@
     "@mapbox/togeojson": "^0.16.0",
     "acl": "^0.4.11",
     "apidoc": "^0.17.6",
-    "archiver": "^2.1.0",
+    "archiver": "^7.0.0",
     "async": "^2.6.0",
     "bcrypt-nodejs": "latest",
     "body-parser": "^1.18.2",
