@@ -135,7 +135,7 @@
     "sleep": "^5.1.1",
     "slug": "^0.9.1",
     "snyk": "^1.48.1",
-    "socket.io": "^2.0.4",
+    "socket.io": "^3.0.0",
     "srs": "^1.2.0",
     "superagent": "^3.8.0",
     "supertest": "^3.0.0",
