@@ -116,7 +116,7 @@
     "nodemailer": "^4.3.1",
     "oauth2orize": "^1.11.0",
     "ogr2ogr": "^1.2.1",
-    "pdfkit": "^0.8.3",
+    "pdfkit": "^0.16.0",
     "pg": "^7.4.0",
     "pg-native": "^2.2.0",
     "phantom": "^4.0.5",
