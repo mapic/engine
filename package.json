@@ -78,7 +78,7 @@
     "geojson-area": "^0.2.1",
     "geojson-validation": "^0.1.6",
     "glob": "^7.1.2",
-    "gm": "^1.23.0",
+    "gm": "^1.25.1",
     "grunt": "^1.0.1",
     "grunt-chokidar": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
